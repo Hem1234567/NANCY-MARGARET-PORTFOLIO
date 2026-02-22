@@ -3,7 +3,7 @@ import GithubGraph from "./GithubGraph";
 
 const skillCategories = [
   {
-    title: "Technical Skills",
+    title: "Skills",
     skills: [
       "HTML",
       "CSS",
@@ -32,7 +32,7 @@ const skillCategories = [
 ];
 
 const SkillsSection = () => (
-  <SectionBlock id="skills" title="Technical Skills">
+  <SectionBlock id="skills" title="Skills">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
       {skillCategories.map((category, idx) => (
         <div

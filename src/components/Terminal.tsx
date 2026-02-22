@@ -73,7 +73,7 @@ const Terminal = () => {
             <span className="text-green-400">about</span>{" "}
             <span>Learn about me</span>
             <span className="text-green-400">skills</span>{" "}
-            <span>View technical skills</span>
+            <span>View skills</span>
             <span className="text-green-400">projects</span>{" "}
             <span>List recent projects</span>
             <span className="text-green-400">contact</span>{" "}
