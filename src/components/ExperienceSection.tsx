@@ -2,11 +2,18 @@ import SectionBlock from "./SectionBlock";
 
 const experiences = [
   {
-    role: "MERN Stack Developer (Freelance)",
-    company: "Academy of Tech Masters (AOTMS)",
-    period: "[23DEC 2025 – 23JAN 2026]",
+    role: "Intern",
+    company: "D2R AI Labs Pvt Ltd",
+    period: "June 09 – June 30, 2025",
     description:
-      "🚀Freelance Project – Successfully Delivered Completed a real-world client project with my team using [Tech Stack – e.g., React, Node.js, MongoDB]. Key learnings: 🔹 Building scalable features 🔹 Team collaboration & Git workflows 🔹 Meeting client expectations & deadlines.",
+      "Developed Python scripts for web scraping datasets for AI projects and gained exposure to professional workflows, teamwork and project documentation.",
+  },
+  {
+    role: "Organizer & Sponsorship Lead",
+    company: "PEC Hacks 3.0",
+    period: "Dec 27–28, 2025",
+    description:
+      "Raised ₹89L prize pool and executed a 36-hour national hackathon, managing sponsors, teams and stakeholders.",
   },
 ];
 

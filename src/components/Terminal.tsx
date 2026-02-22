@@ -22,7 +22,7 @@ const Terminal = () => {
       type: "response",
       content: (
         <div className="mb-2">
-          <p>Welcome to Vara's Portfolio Terminal v1.0.0</p>
+          <p>Welcome to Nancy's Portfolio Terminal v1.0.0</p>
           <p>
             I am a conversational AI. Type{" "}
             <span className="text-green-400">help</span> for commands, or just
@@ -85,28 +85,28 @@ const Terminal = () => {
           </div>
         );
       case "about":
-        return "I'm Pappuri Durga Vara Prasad, a passionate developer specializing in Flutter, React, and Blockchain technologies. I build modern, high-performance applications.";
+        return "I'm NANCY MARGARET B, a motivated Computer Science and Business Systems student with strong technical foundations and hands-on experience in project execution and leadership.";
       case "skills":
         return (
           <div>
-            <p className="mb-1">CORE STACK:</p>
-            <p>• Flutter / Dart</p>
-            <p>• React / TypeScript</p>
-            <p>• Firebase / Node.js</p>
-            <p>• Blockchain (Aptos/Move)</p>
+            <p className="mb-1">CORE SKILLS:</p>
+            <p>• HTML / CSS / JS</p>
+            <p>• React.js / Node.js</p>
+            <p>• Python / Java / SQL</p>
+            <p>• C / C++</p>
           </div>
         );
       case "projects":
         return (
           <div className="flex flex-col gap-1">
             <a href="#projects" className="text-blue-400 hover:underline">
-              1. EduPredict (AI Analytics)
+              1. Music Web Application
             </a>
             <a href="#projects" className="text-blue-400 hover:underline">
-              2. AOTMS (Transport Mgmt)
+              2. Solar-Powered Desalination
             </a>
             <a href="#projects" className="text-blue-400 hover:underline">
-              3. Vara's Portfolio
+              3. Coffee Dreg Printers
             </a>
           </div>
         );
@@ -116,32 +116,21 @@ const Terminal = () => {
             <p>
               Email:{" "}
               <a
-                href="mailto:pappuridurgavaraprasad4pl@gmail.com"
+                href="mailto:nancymargaret13@gmail.com"
                 className="text-blue-400 hover:underline"
               >
-                pappuridurgavaraprasad4pl@gmail.com
+                nancymargaret13@gmail.com
               </a>
             </p>
             <p>
               LinkedIn:{" "}
               <a
-                href="https://www.linkedin.com/in/durga-vara-prasad-pappuri-1797701b6/"
+                href="https://www.linkedin.com/in/nancymargaret"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:underline"
               >
-                www.linkedin.com/in/durga-vara-prasad-pappuri-1797701b6/
-              </a>
-            </p>
-            <p>
-              GitHub:{" "}
-              <a
-                href="https://github.com/VARA4u-tech"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:underline"
-              >
-                github.com/VARA4u-tech
+                linkedin.com/in/nancymargaret
               </a>
             </p>
           </div>
@@ -156,7 +145,7 @@ const Terminal = () => {
 
     // Greeting
     if (lower.match(/^(hi|hello|hey|greetings)/)) {
-      return "Hello! I'm Vara's virtual assistant. How can I help you today?";
+      return "Hello! I'm Nancy's virtual assistant. How can I help you today?";
     }
 
     // About
@@ -262,9 +251,8 @@ const Terminal = () => {
       onClick={() => setIsOpen(false)}
     >
       <div
-        className={`bg-[#0c0c0c] border border-white/20 shadow-[8px_8px_0px_0px_rgba(255,255,255,0.1)] w-full transition-all duration-300 flex flex-col font-mono text-sm md:text-base ${
-          isMaximized ? "h-[95vh] w-[95vw]" : "max-w-2xl h-[600px]"
-        }`}
+        className={`bg-[#0c0c0c] border border-white/20 shadow-[8px_8px_0px_0px_rgba(255,255,255,0.1)] w-full transition-all duration-300 flex flex-col font-mono text-sm md:text-base ${isMaximized ? "h-[95vh] w-[95vw]" : "max-w-2xl h-[600px]"
+          }`}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -280,7 +268,7 @@ const Terminal = () => {
             />
             <div className="w-3 h-3 rounded-full bg-green-500 hover:bg-green-600 cursor-pointer" />
             <span className="ml-2 text-white/60 text-xs">
-              guest@vara-portfolio:~
+              guest@nancy-portfolio:~
             </span>
           </div>
           <div className="flex items-center gap-3 text-white/40">

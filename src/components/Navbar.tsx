@@ -3,10 +3,10 @@ import { useState } from "react";
 const links = [
   { label: "About", href: "#about" },
   { label: "Education", href: "#education" },
+  { label: "Certifications", href: "#certifications" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
-  { label: "Technical Skills", href: "#skills" },
-  { label: "Blog", href: "https://durgavaraprasad.hashnode.dev/" },
+  { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
 ];
 

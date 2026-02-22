@@ -2,16 +2,16 @@ import SectionBlock from "./SectionBlock";
 
 const education = [
   {
-    degree:
-      "Master of Computer Applications (MCA), DVR & Dr. HS MIC College of Technology (Autonomous),Kanchikacherla",
-    school: "Jawaharlal Nehru Technological University Kakinada",
-    year: "2024 – 2026(Pursuing)",
+    degree: "B. Tech, Computer Science & Business Systems",
+    school: "Panimalar Engineering College",
+    year: "2023 – 2027",
+    details: "CGPA: 8.1",
   },
   {
-    degree:
-      "Bachelor of Science (B.Sc-MSCs), Gowtham Degree College,Vijayawada",
-    school: "Krishna University",
-    year: "2021 – 2024",
+    degree: "Higher Secondary Certificate (HSC)",
+    school: "St Francis Xavier Anglo Indian Higher Secondary School",
+    year: "2023",
+    details: "Percentage: 74%",
   },
 ];
 
@@ -32,6 +32,14 @@ const EducationSection = () => (
             <span className="font-mono text-sm text-foreground/60">
               {item.year}
             </span>
+            {item.details && (
+              <>
+                <span className="hidden md:inline text-foreground/20">•</span>
+                <span className="font-mono text-sm text-foreground/60">
+                  {item.details}
+                </span>
+              </>
+            )}
           </div>
         </div>
       ))}

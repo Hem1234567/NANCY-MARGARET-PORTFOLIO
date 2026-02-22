@@ -9,6 +9,7 @@ import ContactSection from "@/components/ContactSection";
 import ScrollToTop from "@/components/ScrollToTop";
 import Terminal from "@/components/Terminal";
 import Finale from "@/components/Finale";
+import CertificationsSection from "@/components/CertificationsSection";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <EducationSection />
+      <CertificationsSection />
       <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />

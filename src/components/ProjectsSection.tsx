@@ -5,68 +5,28 @@ import { Badge } from "./ui/badge";
 
 const projects = [
   {
-    title: "SafeTrip Pro",
-    isNew: true,
+    title: "Music Web Application",
     description:
-      "A premium, AI-powered navigation and safety companion featuring real-time intelligence, drowsiness detection, SOS guardian network, and predictive analytics for a safer driving experience.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Supabase",
-      "Framer Motion",
-      "Vite",
-    ],
-    githubUrl:
-      "https://github.com/VARA4u-tech/safe-trip-smart-driving-safety-application",
-    liveUrl: "https://safe-trip-smart-driving-safety-appl.vercel.app",
+      "Developed a responsive music streaming web application with focus on front end design and user interaction.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "#",
+    liveUrl: "#",
   },
   {
-    title: "Academy of Tech Masters (AOTMS)",
+    title: "Solar-Powered Desalination",
     description:
-      "A premier tech education platform featuring AI-powered assistance, interactive student dashboards, and comprehensive course management. Delivered as a high-performance freelance project for a real-world client.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Vite",
-      "Zustand",
-      "Framer Motion",
-    ],
-    githubUrl: "https://github.com/VARA4u-tech/AOTMS",
-    liveUrl: "https://aotms.in",
+      "Presented a conceptual solar based desalination solution at the 7th International Conference emphasizing renewable energy driven water purification.",
+    tags: ["Renewable Energy", "Water Purification", "Research"],
+    githubUrl: "#",
+    liveUrl: "#",
   },
   {
-    title: "Elara Cosmetics",
+    title: "Coffee Dreg Printers",
     description:
-      "A luxury Ayurvedic e-commerce platform with a focus on premium user experience. Features category-based filtering, shopping cart, wishlist, and a custom WhatsApp-integrated checkout system.",
-    tags: ["React", "TypeScript", "Tailwind", "Vite", "Shadcn UI", "Vitest"],
-    githubUrl:
-      "https://github.com/VARA4u-tech/Elara-Cosmetics-E--Commerce-Website-",
-    liveUrl: "https://elara-cosmetics.vercel.app/",
-  },
-  {
-    title: "EduPredict",
-    description:
-      "An AI-powered predictive analytics system for student success, featuring a unique comic book-inspired UI, interactive dashboards, and real-time at-risk student alerts.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind",
-      "Vite",
-      "Lucide React",
-      "Framer Motion",
-    ],
-    githubUrl: "https://github.com/VARA4u-tech/EduPredict",
-    liveUrl: "https://edu-pridect.vercel.app/",
-  },
-  {
-    title: "SmartQuack",
-    description:
-      "A delightful, offline-first task manager with a gamified twist! Features a reactive duck mascot that changes moods based on your productivity progress.",
-    tags: ["Flutter", "Riverpod", "Firebase", "Hive", "Dart"],
-    githubUrl: "https://github.com/VARA4u-tech/my-first-flutter-app",
-    liveUrl: "https://github.com/VARA4u-tech/my-first-flutter-app",
+      "Eco-friendly printing concept using coffee waste involving idea pitching, feasibility analysis and team collaboration. Finalist at STU IDEATHON 2023.",
+    tags: ["Eco-friendly", "Innovation", "Ideation"],
+    githubUrl: "#",
+    liveUrl: "#",
   },
 ];
 

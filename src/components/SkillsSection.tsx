@@ -3,34 +3,31 @@ import GithubGraph from "./GithubGraph";
 
 const skillCategories = [
   {
-    title: "Frontend",
+    title: "Technical Skills",
     skills: [
-      "React",
-      "TypeScript",
+      "HTML",
+      "CSS",
       "JavaScript",
-      "Tailwind CSS",
-      "Zustand",
-      "TanStack Query",
-      "Framer Motion",
-      "Shadcn UI",
-      "Vite",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "SQL",
+      "Node.js",
+      "React.js",
     ],
   },
   {
-    title: "Mobile",
-    skills: ["Flutter", "Dart", "Riverpod", "Material Design"],
-  },
-  {
-    title: "Backend & DB",
-    skills: ["Node.js", "Firebase", "MongoDB", "Hive", "REST APIs"],
-  },
-  {
-    title: "Web3 & AI",
-    skills: ["Aptos", "Move", "AI Integration", "Prompt Engineering"],
-  },
-  {
-    title: "Tools & Others",
-    skills: ["Git", "GitHub", "Figma", "Vitest", "Lucide React", "Vercel"],
+    title: "Business & Professional",
+    skills: [
+      "Project management",
+      "Team coordination",
+      "Effective communication",
+      "Problem-solving",
+      "Analytical thinking",
+      "Entrepreneurial mindset",
+      "Business awareness",
+    ],
   },
 ];
 
